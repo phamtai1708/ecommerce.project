@@ -1,0 +1,77 @@
+div.productCard {
+  width: 15rem;
+  /* height: 20rem; */
+  margin-bottom: 2rem;
+  position: relative;
+}
+div.productCard div.imgBox {
+  width: 15rem;
+  height: 22rem;
+  align-items: center;
+  position: relative;
+}
+div.productCard div.imgBox img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  height: 350px;
+}
+div.productCard p.nameProduct {
+  font-size: 0.8rem;
+  width: 18vw;
+  height: 1.2rem;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+  align-items: center;
+}
+div.productCard p.category {
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 0.5rem 0 0.5rem 0;
+}
+div.productCard div.price {
+  display: flex;
+  gap: 0;
+}
+div.productCard p.minPrice {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+  padding-top: 0.5rem;
+}
+div.productCard p.maxPrice {
+  width: 8vw;
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgb(165, 165, 165);
+  text-decoration: line-through;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+div.productCard div.productBtn {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 1rem;
+  right: 0.5rem;
+}
+div.productCard div.productBtn button.btnFavorite,
+div.productCard div.productBtn button.btnAddToCart {
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  margin: 0;
+  border-radius: 100%;
+  background-color: transparent;
+  border: none;
+}
+div.productCard div.productBtn button.btnFavorite:hover,
+div.productCard div.productBtn button.btnAddToCart:hover {
+  color: white;
+}

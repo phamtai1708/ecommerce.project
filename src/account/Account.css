@@ -1,0 +1,24 @@
+div.accountPageBox {
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+div.accountPageBox div.accountMenu {
+}
+div.accountPageBox div.accountMenu p.acp1 {
+  font-weight: bold;
+}
+div.accountPageBox div.accountMenu p.acp2 {
+  color: #b0b0b0;
+  margin-left: 2rem;
+}
+div.accountPageBox div.accountMenu p.acp2:hover {
+  color: #db4444;
+}
+div.infoRender {
+  width: 50rem;
+  height: 40rem;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

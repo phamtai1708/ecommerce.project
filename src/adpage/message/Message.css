@@ -1,0 +1,30 @@
+div.messageBox {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div.messageBox button.active {
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
+  border-radius: 0;
+  width: 10rem;
+  border-bottom: 2px solid rgb(88, 118, 255);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+div.messageBox button.btnNoClick {
+  background-color: transparent;
+  border-radius: 0;
+  width: 10rem;
+  border-bottom: 1px solid rgb(202, 202, 202);
+  outline: none;
+}
+div.messageBox button:hover {
+  background-color: rgb(108, 108, 255);
+  color: white;
+}
+div.messageBox div.renderMessage {
+  height: 30rem;
+}

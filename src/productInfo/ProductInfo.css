@@ -1,0 +1,118 @@
+div.productInfo {
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+div.productInfo div.productImage {
+  display: flex;
+  gap: 2rem;
+}
+div.productInfo div.productImage div.listImage {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  gap: 1rem;
+}
+div.productInfo div.productImage div.listImage img {
+  width: 7rem;
+  gap: 1rem;
+}
+div.productInfo div.productImage div.mainImg img {
+  width: 30rem;
+}
+/* -------------------------------- */
+div.productDetail p.productName {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+div.productDetail p.productStar {
+  font-weight: 500;
+}
+div.productDetail p.minPrice {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff5a5a;
+}
+div.productDetail p.minPrice span.maxPrice {
+  font-weight: 200;
+  color: #b3b3b3;
+  font-size: 1rem;
+  text-decoration: line-through;
+  position: relative;
+  bottom: 0.5rem;
+  margin-left: 1rem;
+}
+/* --------------------------------- */
+div.listSizes,
+div.listColors {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+div.listSizes button {
+  padding: 0.2rem 0.5rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+div.listSizes button:hover {
+  background-color: rgb(104, 104, 254);
+  color: #ffffff;
+}
+/* ---------------------- */
+div.productBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.productBox div.volume {
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+div.productBox div.volume span {
+  background-color: #ff5a5a;
+  height: 3rem;
+  width: 3rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+div.productBox div.volume p {
+  font-weight: bold;
+  margin: 0;
+}
+button.btnBuyNow {
+  width: 12rem;
+  background-color: #ff5a5a;
+  color: #ffffff;
+}
+button.btnFavorit {
+  border: 1px solid black;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+}
+/* ------------------ */
+div.flsProduct {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  wrap: flex-grow;
+}
+p.relatedItem {
+  color: #ff5a5a;
+  font-weight: bold;
+  font-family: 1.5rem;
+  margin: 5rem 0 3rem 0;
+  border-left: 15px solid rgb(223, 91, 91);
+  padding: 0.5rem 1rem;
+}

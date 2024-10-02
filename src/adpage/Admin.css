@@ -1,0 +1,36 @@
+div.adminPage {
+  padding: 2rem 3rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+div.optionAdmin {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+div.adminPage div.optionAdmin p.active {
+  font-weight: bold;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+div.adminPage div.optionAdmin p.adp1 {
+  font-weight: bold;
+  color: #b0b0b0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+div.adminPage div.optionAdmin p.adp1:hover {
+  color: #000;
+}
+div.adBox {
+  width: 60rem;
+  border: none;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}

@@ -1,0 +1,22 @@
+button.xanh,
+button.vang,
+button.den,
+button.trang {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100%;
+  padding: 0;
+  margin: 0;
+}
+button.xanh {
+  background-color: #3845ff;
+}
+button.vang {
+  background-color: #ffe122;
+}
+button.den {
+  background-color: #000000;
+}
+button.trang {
+  background-color: #e2e2e2;
+}

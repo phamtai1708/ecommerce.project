@@ -1,0 +1,22 @@
+div.incomeBox {
+}
+div.incomeBox p.ic1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+div.incomeBox div.chartBox {
+  height: 30rem;
+  background-color: whitesmoke;
+  margin: 1rem;
+}
+div.statisticalBox {
+}
+div.statisticalBox div.listRender {
+  height: 30rem;
+  background-color: whitesmoke;
+  margin: 1rem;
+}

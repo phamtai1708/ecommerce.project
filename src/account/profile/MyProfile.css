@@ -1,0 +1,76 @@
+div.profileBox {
+  padding: 1rem 5rem 1rem 5rem;
+  position: relative;
+}
+div.profileBox p.pfp1 {
+  color: #db4444;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+}
+div.profileBox div.pfName {
+  display: flex;
+  justify-content: space-between;
+}
+div.profileBox div.pfName div.pfd1 {
+  display: flex;
+  flex-direction: column;
+}
+div.profileBox div.pfName input {
+  width: 18rem;
+  height: 2rem;
+  padding-left: 1rem;
+  border: none;
+  background-color: #f5f5f5;
+}
+div.profileBox div.pfName label,
+p.pfp2 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+}
+div.favoriteList {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5 rem;
+}
+div.favoriteList p {
+  padding: 0.2rem 0.3rem;
+  margin: 0.2rem 0.5rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+div.infoBox {
+  display: flex;
+  justify-content: space-between;
+}
+div.pfd2 {
+}
+div.pfd2 label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+div.pfd2 input {
+  padding-left: 1rem;
+  width: 3rem;
+  border: none;
+}
+div.btnProfile {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  position: relative;
+  top: 5rem;
+}
+button.btnCancel {
+  background-color: transparent;
+}
+button.btnChange {
+  width: 10rem;
+  background-color: #db4444;
+  color: #ffffff;
+}
+div.btnProfile button:hover {
+  background-color: rgb(102, 102, 255);
+  color: #ffff;
+}
